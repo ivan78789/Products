@@ -1,22 +1,3 @@
-# Products
-Сделал рабочий поиск по цене от меньшей до большей, и по названию продукта.
-После ввода в посик нажмите на кнопку "Поиск", он выдаст вам то что вы ввели, конечно если оно есть в базе.
-После желательно  нажмите на кнопку "Сброс", чтобы вернуть все.
-
-#Реализовано:
-
- -- Добавление/удаление/редактирование товаров.
-
- -- Фильтрацию по цене.
-
- -- Поиск по названию.
-
- -- Загрузка изображения в /uploads.
-
- #Для заполнения базы:
-
-
-
 CREATE DATABASE products_db;
 
 USE products_db;
@@ -29,7 +10,6 @@ CREATE TABLE products (
     image VARCHAR(255),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
 INSERT INTO products (name, description, price, image) VALUES
 ('Ноутбук Lenovo', 'Ноутбук Lenovo IdeaPad 3 с процессором Intel i5', 45000.00, 'images/lenovo_ideapad.jpg'),
 ('Смартфон Samsung', 'Samsung Galaxy A52, 128GB, черный', 30000.00, 'images/samsung_a52.jpg'),
