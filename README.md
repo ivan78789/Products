@@ -31,6 +31,9 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (name, description, price, image) VALUES
+('Снимок экрана', 'Пример изображения 1', 1000.00, 'uploads/690f6d0d2b19b_Снимок экрана 2025-10-26 111452.png'),
+('Изображение WhatsApp 1', 'Пример изображения 2', 1500.00, 'uploads/690f5a904ba5e_Изображение WhatsApp 2025-09-01 в 21.56.49_e6c625b3.jpg'),
+('Изображение WhatsApp 2', 'Пример изображения 3', 2000.00, 'uploads/690f1c9e95a17_Изображение WhatsApp 2025-09-01 в 21.56.49_e6c625b3.jpg');
 ('Ноутбук Lenovo', 'Ноутбук Lenovo IdeaPad 3 с процессором Intel i5', 45000.00, 'images/lenovo_ideapad.jpg'),
 ('Смартфон Samsung', 'Samsung Galaxy A52, 128GB, черный', 30000.00, 'images/samsung_a52.jpg'),
 ('Наушники JBL', 'Беспроводные наушники JBL Tune 500BT', 7000.00, 'images/jbl_500bt.jpg'),
